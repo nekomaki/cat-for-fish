@@ -1,8 +1,4 @@
 function cat-for-fish
-    if not status --is-interactive
-        return
-    end
-
     set state_file ~/.cat_state
 
     if test -f $state_file

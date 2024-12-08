@@ -9,7 +9,7 @@ function cat-for-fish
             echo 1 > $state_file
         end
     else
-        echo "Your fish was eaten by your cat."
+        echo "Oops! Your fish was eaten by the cat."
         echo 0 > $state_file
         exec bash
     end

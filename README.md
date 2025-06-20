@@ -7,5 +7,5 @@ A cat for fish.
 Use [Fisher](https://github.com/jorgebucaran/fisher):
 
 ```fish
-fisher install shimoe2028/cat-for-fish
+fisher install nekomaki/cat-for-fish
 ```

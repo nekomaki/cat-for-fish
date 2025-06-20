@@ -1,5 +1,5 @@
 function cat-for-fish
-    set state_file ~/.cat_state
+    set state_file /tmp/.cat_state_$USER
 
     if test -f $state_file
         set state (cat $state_file)
